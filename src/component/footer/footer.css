@@ -1,0 +1,13 @@
+.ftr{
+    
+    padding: 0.7rem;
+    background: var(--color-primary);
+    color:wheat;
+    color: var(--color-bg);
+   
+}
+
+.ftr-a{
+    font-size: 0.7rem;
+    color: var(--color-bg)
+}
