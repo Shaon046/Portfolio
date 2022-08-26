@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Shaon-React-Developer.doc";
 
 const Buttons = (props) => {
   return (
