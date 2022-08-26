@@ -1,15 +1,17 @@
 import React from "react";
 import CV from "../../assets/cv.pdf";
 
-const Buttons = () => {
+const Buttons = (props) => {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="#contact" className="btn btn-primary" onClick={props.anchorOnClickHander}>
         Let's Talk
       </a>
+
+      <button  onClick={props.showWebexIntigration}  className="btn" >test btn</button>
     </div>
   );
 };

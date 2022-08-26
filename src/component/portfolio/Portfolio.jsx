@@ -5,7 +5,7 @@ import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/portfolio6.png";
 
 // ==============Portfolio Data============
 
@@ -42,16 +42,16 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "portfolio title 5",
-    github: "http://github.com",
-    demo: "https://dribbble.com/alien_pixels",
+    title: "Tic-Tac-Toe",
+    github: "https://github.com/Shaon046/Tic-Tac-Toe",
+    demo: "http://pop-tic-tac-toe.netlify.app/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "portfolio title 6",
-    github: "http://github.com",
-    demo: "https://dribbble.com/alien_pixels",
+    title: "Weather App",
+    github: "https://github.com/Shaon046/Weather_App",
+    demo: "https://weatherfindee.netlify.app/",
   },
 ];
 
@@ -70,10 +70,10 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target={"_blank"} rel="noopener noreferrer">
                   GitHub
                 </a>
-                <a href={demo} className="btn btn-primary" target={"_blank"}>
+                <a href={demo} className="btn btn-primary" target={"_blank"} rel="noopener noreferrer">
                   Live Demo
                 </a>
               </div>

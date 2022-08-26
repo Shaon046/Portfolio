@@ -69,37 +69,5 @@ header{
 
 
 
-/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
-@media screen and (max-width: 1024px) {
-  header{
-    height: 68vh;
-
-  }
-/* 
-  .me{
-    border-radius: 18rem ;
-    height: 18rem;
-    width: 18rem;
-    
-  } */
-  } 
-  
-  /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
-  
-  @media screen and (max-width: 600px) {
-   header{
-    height: 100vh;
- }
-  .header_socials,.scroll_down{
- display: none;   
-  }
-/* 
-  .me{
-    border-radius: 12rem ;
-    height: 12rem;
-    width: 12rem;
-    
-  } */
-  }
   

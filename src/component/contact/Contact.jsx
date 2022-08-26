@@ -10,8 +10,8 @@ import emailjs from '@emailjs/browser';
 function Contact() {
 
 const form=useRef()
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (eve) => {
+    eve.preventDefault();
 
     emailjs.sendForm('service_6m86fnp', 'template_yqt934m', form.current, 'uygqNEgS6UlBHzZ_G')
       .then((result) => {
@@ -21,7 +21,7 @@ const form=useRef()
       });
 
 
-      e.target.reset()
+      eve.target.reset()
   };
 
 
@@ -36,7 +36,7 @@ const form=useRef()
             <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>Bshaon19@gmail.com</h5>
-            <a href="mailto : bshaon19@gmail.com" target="_blank">
+            <a href="mailto : bshaon19@gmail.com" target="_blank" rel="noopener noreferrer">
               Send a message
             </a>
           </article>
@@ -45,7 +45,7 @@ const form=useRef()
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>Shaon</h5>
-            <a href="https://wa.me/9366311783" target="_blank">
+            <a href="https://wa.me/9366311783" target="_blank" rel="noopener noreferrer">
               Send a message
             </a>
           </article>
