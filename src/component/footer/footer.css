@@ -1,3 +1,7 @@
+
+
+
+
 .ftr{
     
     padding: 0.7rem;
@@ -11,3 +15,24 @@
     font-size: 0.7rem;
     color: var(--color-bg)
 }
+
+
+
+
+
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+
+}
+    
+     /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+     
+     @media screen and (max-width: 600px) {
+         
+        .main-ftr{
+            margin-top: 16rem
+        }
+ 
+         
+     }

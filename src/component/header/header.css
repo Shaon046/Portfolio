@@ -2,6 +2,7 @@ header{
     height:100vh;
     padding-top: 7rem;
     overflow: hidden;
+    margin: 1rem;
 }
 
 .header__container{
@@ -46,7 +47,7 @@ header{
 .me{
     background:linear-gradient(#141f5f,var(--color-primary)) ;
     width: 15rem;
-    height: 17rem;
+    height: 16rem;
     position: absolute;
     overflow: hidden;
     /* left:calc(50%-11rem) */
@@ -70,4 +71,76 @@ header{
 
 
 
+/* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
+
+@media screen and (max-width: 1024px) {
+  
+    header{
+        margin-bottom: 1rem;
+    }
+ .me{
+        width: 15rem;
+        height: 17rem;
+    }
+
+
+    .cta{
+        gap: 0.9rem;
+        display: flex;
+        
+       
+    }
+ .btnTest{
+         grid-column: 1/3;
+        
+    }
+
+    header{
+        height:100vh;
+        padding-top: 7rem;
+        overflow:hidden;
+        margin: 1rem;
+    }
+
+.scroll_down{
+    display: none;
+}
+
+  } 
+    
+    /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+    
+    @media screen and (max-width: 600px) {
+  
+        header{
+            margin-bottom: 1rem;
+        }
+
+
+        .me{
+            width: 10rem;
+            height: 12rem;
+        }
+
+
+        .cta{
+            gap: 0.9rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 2fr;
+            justify-items: center;
+            align-items: center;
+            justify-self: center;
+           
+        }
+
+        .btnTest{
+             grid-column: 1/3;
+            
+        }
+
+        .scroll_down{
+            display: none;
+        }
+}
   

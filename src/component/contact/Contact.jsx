@@ -36,7 +36,7 @@ const form=useRef()
             <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>Bshaon19@gmail.com</h5>
-            <a href="mailto : bshaon19@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto : bshaon19@gmail.com"  >
               Send a message
             </a>
           </article>

@@ -11,7 +11,7 @@ const Buttons = (props) => {
         Let's Talk
       </a>
 
-      <button  onClick={props.showWebexIntigration}  className="btn" >test btn</button>
+      <button  onClick={props.showWebexIntigration}  className="btn btnTest" >test btn</button>
     </div>
   );
 };

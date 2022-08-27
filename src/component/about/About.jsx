@@ -30,10 +30,7 @@ function About() {
               <small>20+ projects</small>
             </article>
           </div>{" "}
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            similique quis provident itaque aperiam illo eos corporis deleniti,
-            i?
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus quos laboriosam.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -1,4 +1,6 @@
-
+section {
+    margin-top: 3rem;
+}
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -76,6 +78,10 @@ cursor:default;
 /* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
 @media screen and (max-width: 1024px) {
+
+    section {
+        margin-top: -27rem;
+    }
     .about__container{
         grid-template-columns: 1fr;
         gap:0
@@ -95,7 +101,11 @@ cursor:default;
     /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
     
     @media screen and (max-width: 600px) {
-  .about__me{
+  
+      
+       
+  
+        .about__me{
   width: 65%;
 margin: 0 auto 3rem;
 
@@ -105,7 +115,8 @@ margin: 0 auto 3rem;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-}
+
+
 
 .about__content{
     text-align: center;
@@ -113,5 +124,11 @@ margin: 0 auto 3rem;
 
 .about__content p{
     margin: 1.5rem;
+
+}
+
+#about{
+    margin-top: 0.2rem;
+}
 
 }

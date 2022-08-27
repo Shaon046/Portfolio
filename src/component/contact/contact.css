@@ -1,3 +1,10 @@
+
+
+#contact{
+  margin-top: 6rem;
+}
+
+
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -68,12 +75,15 @@ input, textarea{
 /* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
 @media screen and (max-width: 1024px) {
+
+
+
     .container.contact__container{
         grid-template-columns: 1fr;
         gap:2rem
     }
     #contact{
-        margin-top: 40rem;
+        margin-top: -31rem;
        
     }
   } 
@@ -82,7 +92,7 @@ input, textarea{
     
     @media screen and (max-width: 600px) {
         .container{
-            gap:39rem;
+            gap:1rem;
         }
         .container.contact__container{
           width: var(--container-width-sm);
@@ -90,7 +100,7 @@ input, textarea{
         }
       
  #contact{
-    margin-top: 140rem;
+    margin-top: 28rem;
    
 }
 }
