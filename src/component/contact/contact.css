@@ -1,3 +1,7 @@
+#contact {
+  margin-top: 6rem;
+}
+
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -36,61 +40,48 @@
   transition: var(--trasition);
 }
 
-
-
-
 /* ==============Form================ */
 
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-input, textarea{
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
-    color: white;
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: white;
 }
-
-
-
-
-
-
-
 
 /* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
 @media screen and (max-width: 1024px) {
-    .container.contact__container{
-        grid-template-columns: 1fr;
-        gap:2rem
-    }
-    #contact{
-        margin-top: 40rem;
-       
-    }
-  } 
-    
-    /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
-    
-    @media screen and (max-width: 600px) {
-        .container{
-            gap:39rem;
-        }
-        .container.contact__container{
-          width: var(--container-width-sm);
-         
-        }
-      
- #contact{
-    margin-top: 140rem;
-   
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  #contact {
+    margin-top: -31rem;
+  }
 }
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+  .container {
+    gap: 1rem;
+  }
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+
+  #contact {
+    margin-top: 28rem;
+  }
 }

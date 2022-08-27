@@ -2,28 +2,32 @@ import React from "react";
 import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
-import  { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-
-const form=useRef()
+  const form = useRef();
   const sendEmail = (eve) => {
     eve.preventDefault();
 
-    emailjs.sendForm('service_6m86fnp', 'template_yqt934m', form.current, 'uygqNEgS6UlBHzZ_G')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_6m86fnp",
+        "template_yqt934m",
+        form.current,
+        "uygqNEgS6UlBHzZ_G"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
 
-
-      eve.target.reset()
+    eve.target.reset();
   };
-
 
   return (
     <section id="contact">
@@ -36,16 +40,19 @@ const form=useRef()
             <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>Bshaon19@gmail.com</h5>
-            <a href="mailto : bshaon19@gmail.com" target="_blank" rel="noopener noreferrer">
-              Send a message
-            </a>
+
+            <a href="mailto: bshaon19@gmail.com"> Send Email</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>Shaon</h5>
-            <a href="https://wa.me/9366311783" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://wa.me/9366311783"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Send a message
             </a>
           </article>

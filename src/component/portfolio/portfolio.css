@@ -60,5 +60,10 @@
             gap: 1rem;
           
            }
+
+           section {
+            margin-top: 0rem;
+        }
+        
     }
     

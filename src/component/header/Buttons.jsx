@@ -10,8 +10,6 @@ const Buttons = (props) => {
       <a href="#contact" className="btn btn-primary" onClick={props.anchorOnClickHander}>
         Let's Talk
       </a>
-
-      <button  onClick={props.showWebexIntigration}  className="btn" >test btn</button>
     </div>
   );
 };
