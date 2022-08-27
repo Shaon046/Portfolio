@@ -3,32 +3,31 @@ import "./header.css";
 import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
 import ME from "../../assets/img1.png";
-import WebexIntigration from "../contact/WebexIntigration";
+import Linkdin from "../contact/Linkedin";
 
 const Header = () => {
   const [show, setShow] = useState(false);
 
-  const showWebexIntigration = () => {
+  const showLinkedin = () => {
     console.log("tested");
     setShow(!show);
   };
 
-  const anchorOnClickHander = () => {
+ const anchorOnClickHander = () => {
     setTimeout(() => {
       setShow(!show);
-      console.log("anchor");
     }, 1000);
   };
 
   return (
     
-    <header class='main'>
+    <header className='main'>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Shaon Bhattacharjee</h1>
         <h5 className="text-light">React Developer</h5>
         <Buttons
-          showWebexIntigration={showWebexIntigration}
+          showLinkedin={showLinkedin}
           anchorOnClickHander={anchorOnClickHander}
         />
         <HeaderSocials />
@@ -43,7 +42,7 @@ const Header = () => {
 
       <div>
         {show && (
-          <WebexIntigration showWebexIntigration={showWebexIntigration} />
+          <Linkdin showLinkedin={showLinkedin} />
         )}
       </div>
     </header>

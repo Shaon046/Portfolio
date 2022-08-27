@@ -4,7 +4,14 @@ import Img from "../../assets/react.png";
 import { FiTarget } from "react-icons/fi";
 import { AiOutlineFileDone } from "react-icons/ai";
 
+
+
+
 function About() {
+
+ 
+  
+
   return (
     <section id="about">
       <h5>Get to know</h5>
@@ -30,12 +37,16 @@ function About() {
               <small>20+ projects</small>
             </article>
           </div>{" "}
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus quos laboriosam.
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            necessitatibus quos laboriosam.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" >
             Let's Talk
           </a>
         </div>
+
+        
       </div>
     </section>
   );
