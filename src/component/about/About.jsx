@@ -28,7 +28,7 @@ function About() {
           <div className="about__cards">
             <article className="about__card">
               <FiTarget className="about__icon" />
-              <h5>CAREER OBJECTIVE</h5>
+              <h5>Certified React Developer</h5>
             </article>
 
             <article className="about__card">
@@ -37,9 +37,8 @@ function About() {
               <small>20+ projects</small>
             </article>
           </div>{" "}
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            necessitatibus quos laboriosam.
+          <p className="obj_p">
+          As a passionate certified React front developer, I am seeking a role that allows me to continue learning and perfecting my web development skills as I provide high-quality work, and encourages me to flourish as a React developer.
           </p>
           <a href="#contact" className="btn btn-primary" >
             Let's Talk

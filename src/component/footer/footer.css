@@ -1,39 +1,24 @@
-
-
-
-
-.ftr{
-    
-    padding: 0.7rem;
-    background: var(--color-primary);
-    color:wheat;
-    color: var(--color-bg);
-   
+.ftr {
+  padding: 0.7rem;
+  background: var(--color-primary);
+  color: wheat;
+  color: var(--color-bg);
 }
 
-.ftr-a{
-    font-size: 0.7rem;
-    color: var(--color-bg)
+.ftr-a {
+  font-size: 0.7rem;
+  color: var(--color-bg);
 }
-
-
-
-
 
 /* =====================MEDIA QUERY(MEDIUM DEVICE[TABLETS])================================= */
 
 @media screen and (max-width: 1024px) {
-
 }
-    
-     /* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
-     
-     @media screen and (max-width: 600px) {
-         
-        .main-ftr{
-            margin-top: 35rem;
-            
-        }
- 
-         
-     }
+
+/* =====================MEDIA QUERY(SMALL DEVICE[MOBILE])================================= */
+
+@media screen and (max-width: 600px) {
+  .main-ftr {
+    margin-top: 35rem;
+  }
+}
