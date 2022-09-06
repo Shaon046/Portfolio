@@ -1,17 +1,10 @@
 import React from "react";
 import "./about.css";
 import Img from "../../assets/react.png";
-import { FiTarget } from "react-icons/fi";
+import { TbFileCertificate } from "react-icons/tb";
 import { AiOutlineFileDone } from "react-icons/ai";
 
-
-
-
 function About() {
-
- 
-  
-
   return (
     <section id="about">
       <h5>Get to know</h5>
@@ -27,7 +20,7 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FiTarget className="about__icon" />
+              <TbFileCertificate className="about__icon" />
               <h5>Certified React Developer</h5>
             </article>
 
@@ -37,15 +30,16 @@ function About() {
               <small>20+ projects</small>
             </article>
           </div>{" "}
-          <p className="obj_p">
-          As a passionate certified React front developer, I am seeking a role that allows me to continue learning and perfecting my web development skills as I provide high-quality work, and encourages me to flourish as a React developer.
+          <p >
+            As a passionate certified React front developer, I am seeking a role
+            that allows me to continue learning and perfecting my web
+            development skills as I provide high-quality work, and encourages me
+            to flourish as a React developer.
           </p>
-          <a href="#contact" className="btn btn-primary" >
+          <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
-
-        
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG1 from "../../assets/comming-soon.jpg";
+import IMG2 from "../../assets/comming-soon.jpg";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
@@ -13,21 +13,21 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "portfolio title 1",
-    github: "http://github.com",
-    demo: "https://dribbble.com/alien_pixels",
+    title: "comming soon...",
+    github: "http://github.com/shaon046",
+    demo: "http://github.com/shaon046",
   },
   {
     id: 2,
     image: IMG2,
-    title: "portfolio title 2",
-    github: "http://github.com",
-    demo: "https://dribbble.com/alien_pixels",
+    title: "comming soon...",
+    github: "http://github.com/shaon046",
+    demo: "http://github.com/shaon046",
   },
   {
     id: 3,
     image: IMG3,
-    title: "portfolio title 3",
+    title: "Food order app",
     github: "http://github.com",
     demo: "https://dribbble.com/alien_pixels",
   },
@@ -35,9 +35,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "portfolio title 4",
-    github: "http://github.com",
-    demo: "https://dribbble.com/alien_pixels",
+    title: "Photo search app",
+    github: "https://github.com/Shaon046/Photo-Bucket",
+    demo: "photo-buckets.netlify.app",
   },
   {
     id: 5,

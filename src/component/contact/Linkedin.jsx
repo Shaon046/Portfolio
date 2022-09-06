@@ -13,9 +13,10 @@ const Linkedin = (props) => {
             X
           </div>
           <img src={LOGO} alt="logo" className="logo " />
-          <a href="linkdin.com" className="connect">
+          <a href="https://www.linkedin.com/in/shaon-bhattacharjee" className="connect" target="_blank" rel="noreferrer">
             Connect
           </a>
+         
         </div>,
         document.getElementById("overlay-root")
       )}
