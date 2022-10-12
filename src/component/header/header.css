@@ -47,7 +47,7 @@ header{
 .me{
     background:linear-gradient(#141f5f,var(--color-primary)) ;
     width: 15rem;
-    height: 16rem;
+    height: auto;
     position: absolute;
     overflow: hidden;
     /* left:calc(50%-11rem) */
