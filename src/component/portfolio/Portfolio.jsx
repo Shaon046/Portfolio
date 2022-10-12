@@ -17,13 +17,7 @@ const data = [
     github: "http://github.com/shaon046",
     demo: "http://github.com/shaon046",
   },
-  {
-    id: 2,
-    image: IMG2,
-    title: "Expense Tracker",
-    github: "https://github.com/Shaon046/ExpenseTracker-react-",
-    demo: "https://myexpences-tracker.netlify.app/",
-  },
+ 
   {
     id: 3,
     image: IMG3,
@@ -38,6 +32,13 @@ const data = [
     title: "Photo search app",
     github: "https://github.com/Shaon046/Photo-Bucket",
     demo: "https://photo-buckets.netlify.app/",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "Expense Tracker",
+    github: "https://github.com/Shaon046/ExpenseTracker-react-",
+    demo: "https://myexpences-tracker.netlify.app/",
   },
   {
     id: 5,
