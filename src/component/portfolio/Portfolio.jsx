@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/comming-soon.jpg";
+import IMG1 from "../../assets/portfolio1.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG4 from "../../assets/portfolio4.png";
@@ -13,9 +13,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "comming soon...",
-    github: "http://github.com/shaon046",
-    demo: "http://github.com/shaon046",
+    title: "Flipkart clone",
+    github: "https://github.com/Shaon046/FlipkartClone",
+    demo: "https://flipkart-dev-sb.herokuapp.com/",
   },
  
   {
